@@ -5,17 +5,6 @@ import tensorflow as tf
 model = tf.keras.models.load_model("Graduate_admission_model.h5")
 st.title('Graduate Admission GRE Using ANN')
 
-"""
-GRE Scores ( out of 340 )
-TOEFL Scores ( out of 120 )
-University Rating ( out of 5 )
-Statement of Purpose and Letter of Recommendation Strength ( out of 5 )
-Undergraduate GPA ( out of 10 )
-Research Experience ( either 0 or 1 )
-
-GRE Score	TOEFL Score	University Rating	SOP	LOR 	CGPA	Research	Chance of Admit 
-
-"""
 
 v1 = st.number_input("GRE Scores ( out of 340 )")
 v2 = st.number_input("TOEFL Scores ( out of 120 )")
