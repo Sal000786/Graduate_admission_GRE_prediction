@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+streamlit
+
+# Deep learning dependencies
+tensorflow==2.12.0
