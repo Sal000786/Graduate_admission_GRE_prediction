@@ -2,6 +2,7 @@ numpy
 pandas
 scikit-learn
 streamlit
+joblib
 
 # Deep learning dependencies
 tensorflow==2.12.0
