@@ -31,9 +31,9 @@ if st.button('Submit'):
     # st.write("Prediction:", prediction_result)
     # print(prediction_result)
     if prediction_result>0.70:
-        st.show(prediction_result)
+        #st.show(prediction_result)
         st.write(" Hurray!! The student is eligible.")
     else:
         print(prediction_result)
-        st.show(prediction_result)
+        #st.show(prediction_result)
         st.write("Please try next time !!")
